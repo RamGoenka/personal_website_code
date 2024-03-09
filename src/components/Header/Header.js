@@ -30,6 +30,11 @@ const Header = () =>  (
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#blog">
+          <NavLink>Blog</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/RamGoenka">
@@ -37,9 +42,6 @@ const Header = () =>  (
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/ram-goenka/">
         <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons  href="https://medium.com/@rainy08">
-        <AiFillMediumSquare size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

@@ -18,8 +18,10 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
       <CompanyContainer>
-        <Slogan>Thank you for visiting my website! <br /> Have a nice day! ◠‿◠</Slogan>
+        <Slogan>Thank you for visiting my website! <br /> Have a nice day! •‿• <br /> <i>Last updated on March 9, 2024</i></Slogan>
       </CompanyContainer>
+      <SectionText>
+      </SectionText>
     </FooterWrapper>
   );
 };

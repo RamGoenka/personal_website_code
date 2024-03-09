@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     title: 'Pixel',
-    description:"Pixel is a mutli functional Discord bot built in Python, which contains an array of fun and interactice commands. Such commands include: Sending greetings, functioning as a calculator, sending images and animations and also many fun interactive games that server members can play.",
+    description:"Pixel is a mutli functional Discord bot built in Python, which contains an array of fun and interactice commands. Such commands include: Sending greetings, mathematical abilities, sending images and animations, interactive games, setting reminders, and much more!",
     image: '/images/2.png',
     tags: ['Python', 'Git'],
     source: 'https://github.com/RamGoenka/pixel',
@@ -23,12 +23,20 @@ export const projects = [
     source: 'https://github.com/RamGoenka/MutliMode',
     id: 2,
   },
+  {
+    title: 'UIUC Students by State Application',
+    description: "Built a shiny application in the R programming language using the UIUC students by state dataset created and compiled Professor Wade Fagen-Ulmschneider.",
+      image: '/images/4.png',
+      tags: ['R', 'Git'],
+    source: 'https://github.com/RamGoenka/UIUC_students_by_state_application',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: '', },
+  { year: 2018, text: '', },
+  { year: 2019, text: '', },
+  { year: 2020, text: '', },
+  { year: 2021, text: '', },
 ];

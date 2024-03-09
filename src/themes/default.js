@@ -1,7 +1,7 @@
 export default {
   fonts: {
-    title: "Space Grotesk , sans-serif",
-    main: "Courier New, sans-serif"
+    title: "Arial, sans-serif",
+    main: "Arial, sans-serif"
   },
   colors: {
     primary1: "hsl(204,23.8%,95.9%)",

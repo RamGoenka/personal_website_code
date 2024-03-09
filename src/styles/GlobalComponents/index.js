@@ -280,3 +280,24 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
+export const ButtonText = styled.span`
+  position: absolute;
+  z-index: 2; 
+  color: #fff; 
+  font-size: ${({ alt }) => alt ? '20px' : '24px'};
+  font-weight: 525;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Courier New', Times, serif; // Specifies the font as Times New Roman
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: ${({ alt }) => alt ? '20px' : '16px'};
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 14px;
+  }
+`
+
+

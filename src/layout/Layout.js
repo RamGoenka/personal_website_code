@@ -1,6 +1,6 @@
 import React from 'react'
-
 import Footer from '../components/Footer/Footer'
+import ScrollToTop from '../components/ScrollToTop'
 import Header from '../components/Header/Header'
 import { Container } from './LayoutStyles'
 
@@ -10,6 +10,8 @@ export const Layout = ({children}) => {
      <Header/>
      <main>{children}</main> 
      <Footer/>
+     <ScrollToTop/>
     </Container>
+
   )
 }
